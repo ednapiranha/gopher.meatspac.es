@@ -1,0 +1,19 @@
+I only recently started programming in the Go programming language.  "Recently" I suppose
+is a relative term considering the language that has been 1.0 for barely more than 
+two years - but the number of fantastic go projects and libraries already available
+defies the language's age.
+
+The first class channels in Go feel so natural to me after spending a few years writing
+ZeroMQ programs in C.  Using channels to pass messages between goroutines maps nicely
+on a conceptual level to using zeromq sockets over the inproc transport to pass
+messages between threads.  I find myself smiling frequently as I code - and I 
+feel most fortunate that I code Go for my "day job" at Digital Ocean.
+
+Recently, my friend Edna Piranha set up a gopherspace for the meatspace community,
+and it had two large impacts on me.  Firstly, I found myself grinning ear to ear and
+absurdly touched as I navigated the space in a terminal with lynx.  Secondly,
+I realized immediately that I needed to write a gopher server in go, because 
+"gogopher" was just way too great of a project name.
+
+So I've started the project.  I'll try my best to not be lazy, and write a little
+bit of my experiences as I work on it!
