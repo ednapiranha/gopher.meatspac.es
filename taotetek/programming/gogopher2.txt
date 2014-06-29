@@ -1,0 +1,16 @@
+
+The initial pass at the gogopher lib is complete!  The libary is capable of
+reading local directories and translating them into gopher protocol, parsing
+gopher map files, and communicating with remote gopher servers and handling
+their responses.
+
+The parser is pretty brute force - just reads into a large buffer and carves it
+up.  The next step will be bringing the local directory and remote server 
+routines into cohesion with each other, and then working on a streaming
+protocol parser.
+
+The external API shouldn't require more changes at this point.
+
+I'm starting to put together in my head what's needed for the proper 
+server - I want it to be solid and not just a quick hack.  Init
+scripts, propery syslog monitoring, the works.  Should be fun.
