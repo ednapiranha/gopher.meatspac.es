@@ -1,6 +1,8 @@
 # Meatspace Gopherspace
 
-This is the meatspace gopher repository.
+This is the meatspace gopher repository. 
+
+gopher://gopher.meatspac.es/
 
 ## If you want to add yourself ...
 
